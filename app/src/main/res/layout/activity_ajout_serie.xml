@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.applicationserie.AjoutSerie">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:onClick="bt1Clic"
+        android:text="Ajout de la Série" />
+
+    <EditText
+        android:id="@+id/txtTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:hint="Titre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPremDiff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:hint="Date première diffusion (aaaa-mm-jj)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtDuree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:hint="Durée (hh:mm:ss)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:hint="Image (URL)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtResume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="center|top"
+        android:scrollbars = "vertical"
+        android:hint="Résumé"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>
